@@ -3,6 +3,10 @@
     "steamId": "-- YOUR STEAMID HERE --",
     "steamLoginSecure": "FIND IN BROWSER COOKIES",
     "patterns": [
-        "test1234"
+        "giveaway",
+        "trade",
+        "trading",
+        "skin",
+        "winner"
     ]
 }
