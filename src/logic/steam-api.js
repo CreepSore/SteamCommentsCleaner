@@ -1,4 +1,5 @@
 "use strict";
+
 class SteamApi {
     constructor(cookies) {
 
