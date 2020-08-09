@@ -1,3 +1,8 @@
 {
-    "sessionId": "-- ADD YOUR SESSIONID HERE --"
+    "sessionId": "-- ADD YOUR SESSIONID HERE --",
+    "steamId": "-- YOUR STEAMID HERE --",
+    "steamLoginSecure": "FIND IN BROWSER COOKIES",
+    "patterns": [
+        "test1234"
+    ]
 }

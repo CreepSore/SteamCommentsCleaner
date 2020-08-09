@@ -18,5 +18,9 @@
   "bugs": {
     "url": "https://github.com/CreepSore/SteamCommentsCleaner/issues"
   },
-  "homepage": "https://github.com/CreepSore/SteamCommentsCleaner#readme"
+  "homepage": "https://github.com/CreepSore/SteamCommentsCleaner#readme",
+  "dependencies": {
+    "node-fetch": "^2.6.0",
+    "node-html-parser": "^1.2.20"
+  }
 }

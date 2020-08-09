@@ -4,7 +4,16 @@ const fs = require("fs");
 
 class ConfigModel {
     constructor() {
+        /** @type {String} */
         this.sessionId = "-- ADD YOUR SESSIONID HERE --";
+        /** @type {String} */
+        this.steamId = "-- YOUR STEAMID HERE --";
+        /** @type {String} */
+        this.steamLoginSecure = "FIND IN BROWSER COOKIES";
+        /** @type {Array<string>} */
+        this.patterns = [
+            "test1234"
+        ];
     }
 
     static checkModel(model) {
