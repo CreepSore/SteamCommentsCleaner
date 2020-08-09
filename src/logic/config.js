@@ -12,7 +12,11 @@ class ConfigModel {
         this.steamLoginSecure = "FIND IN BROWSER COOKIES";
         /** @type {Array<string>} */
         this.patterns = [
-            "test1234"
+            "giveaway",
+            "trade",
+            "trading",
+            "skin",
+            "winner"
         ];
     }
 

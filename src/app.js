@@ -26,7 +26,7 @@ const checkForComments = function (config, steamApi) {
         .then(async comments => {
             comments.forEach(comment => {
                 config.getConfig().patterns.forEach(async (text) => {
-                    if (comment.text.includes(text)) {
+                    if (comment.text.toLowerCase().includes(text.toLowerCase())) {
                         const result = await steamApi.deleteComment(comment.id);
                         console.log(`Deleting Comment [${comment.id}]: ${result.success}`);
                     }
